@@ -100,7 +100,7 @@ body {
 	background: black;
 }
 #automotive {
-	display: inline-block;
+	display: inline-block; vertical-align: top;
 	padding-bottom: 13px;
 	margin-top: 0px;
 	margin-left: 17px;
@@ -119,8 +119,24 @@ body {
 #automotive img {
 	width: 247px;
 }
+#automotive p {
+	width: 217px;
+	height: 120px;
+	background-color: white;
+	padding: 15px;
+	line-height: 90%;
+	margin-top: -4px;
+}
+#automotive img:nth-of-type(2) {
+	width: 97px;
+	float: right;
+	position: relative;
+	bottom: 60px;
+	right: 18px;
+	background-color:white;
+}
 #commercial {
-	display: inline-block;
+	display: inline-block; vertical-align: top;
 	padding-bottom: 13px;
 	margin-top: 0px;
 	margin-left: 17px;
@@ -140,8 +156,25 @@ body {
 	width: 247px;
 	height: 112px;
 }
+#commercial p {
+	width: 217px;
+	height: 120px;
+	background-color: white;
+	padding: 15px;
+	line-height: 90%;
+	margin-top: -4px;
+}
+#commercial img:nth-of-type(2) {
+	width: 97px;
+	float: right;
+	position: relative;
+	bottom: 60px;
+	right: 18px;
+	background-color:white;
+	height: 23px;
+}
 #industrial {
-	display: inline-block;
+	display: inline-block; vertical-align: top;
 	padding-bottom: 13px;
 	margin-top: 0px;
 	margin-left: 17px;
@@ -160,6 +193,23 @@ body {
 #industrial img {
 	width: 247px;
 	height: 112px;
+}
+#industrial p {
+	width: 217px;
+	height: 120px;
+	background-color: white;
+	padding: 15px;
+	line-height: 90%;
+	margin-top: -4px;
+}
+#industrial img:nth-of-type(2) {
+	width: 97px;
+	float: right;
+	position: relative;
+	bottom: 60px;
+	right: 18px;
+	background-color:white;
+	height: 23px;
 }
 #diesel {
 	display: inline-block;
@@ -181,6 +231,23 @@ body {
 #diesel img {
 	width: 247px;
 	height: 112px;
+}
+#diesel p {
+	width: 217px;
+	height: 120px;
+	background-color: white;
+	padding: 15px;
+	line-height: 90%;
+	margin-top: -4px;
+}
+#diesel img:nth-of-type(2) {
+	width: 97px;
+	float: right;
+	position: relative;
+	bottom: 60px;
+	right: 18px;
+	background-color:white;
+	height: 23px;
 }
 .bold {
 	font-weight: bold;
