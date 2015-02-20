@@ -1,0 +1,191 @@
+html {
+	margin: -8px;
+}
+
+body {
+	font-family: arial;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1100px;
+}
+
+#header {
+	width: 1100px;
+	height: 148px;
+	background: linear-gradient(#E0E0E0, #FAFAFA, white);
+}
+
+#header img {
+	display: inline-block;
+	margin-right: 400px;
+}
+#phone-info {
+	display: inline-block;
+	vertical-align: top;
+	width: 325px;
+}
+#phone-info p {
+	font-size: 20px;
+	font-weight: bold;
+}
+#list ul {
+	height: 60px;
+	margin-top:0px;
+	display: block;
+	border-top: 1px solid #E6E6E6;
+}
+
+#list {
+	background: linear-gradient(#E8F5FF, white);
+}
+#list ul li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 14px;
+	padding: 8px 16px 8px 16px;
+ 	border-top: 1px solid #E6E6E6;
+ 	border-right: 1px solid #E6E6E6;
+ 	border-left: 1px solid white;
+ 	margin: -1px;
+	color: grey;
+}
+#header a {
+	text-decoration: none;
+}
+#body {
+	padding-top:18px;
+	background-color: black;
+	height: 600px;
+}
+#body img {
+	border: 6px solid white;
+	display: inline-block;
+	margin-left: 17px;
+}
+#about {
+	display: inline-block; vertical-align: top;
+	background: grey;
+	height: 267px;
+	width: 650px;
+	margin-left: 8px;
+}
+
+#about h5 {
+	height: 10px;
+	width: 637px;
+	background: linear-gradient(#F5E569, #D1BE2E, #F5E569);
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	margin-top: 0px;
+}
+#about p {
+	color: white;
+	width: 600px;
+	margin-left: 9px;
+    padding-left: 13px;
+    font-size: 15px;
+}
+#small-print {
+	display: block;
+	width: 900px;
+	color: yellow;
+	font-size: 12px;
+	padding-left: 90px;
+	height:24px;
+}
+#article {
+	background: black;
+}
+#automotive {
+	display: inline-block;
+	padding-bottom: 13px;
+	margin-top: 0px;
+	margin-left: 17px;
+}
+#automotive h5 {
+	display: block;
+	height: 11px;
+	width: 234px;
+	background: linear-gradient(#F5E569, #D1BE2E, #F5E569);
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#automotive img {
+	width: 247px;
+}
+#commercial {
+	display: inline-block;
+	padding-bottom: 13px;
+	margin-top: 0px;
+	margin-left: 17px;
+}
+#commercial h5 {
+	display: block;
+	height: 11px;
+	width: 234px;
+	background: linear-gradient(#F5E569, #D1BE2E, #F5E569);
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#commercial img {
+	width: 247px;
+	height: 112px;
+}
+#industrial {
+	display: inline-block;
+	padding-bottom: 13px;
+	margin-top: 0px;
+	margin-left: 17px;
+}
+#industrial h5 {
+	display: block;
+	height: 11px;
+	width: 234px;
+	background: linear-gradient(#F5E569, #D1BE2E, #F5E569);
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#industrial img {
+	width: 247px;
+	height: 112px;
+}
+#diesel {
+	display: inline-block;
+	padding-bottom: 13px;
+	margin-top: 0px;
+	margin-left: 17px;
+}
+#diesel h5 {
+	display: block;
+	height: 11px;
+	width: 234px;
+	background: linear-gradient(#F5E569, #D1BE2E, #F5E569);
+	padding-left: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#diesel img {
+	width: 247px;
+	height: 112px;
+}
+.bold {
+	font-weight: bold;
+}
+.small {
+	font-size: 12px;
+}
